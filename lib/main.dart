@@ -54,7 +54,7 @@ class BasicsOfFlutterAppState extends State<BasicsOfFlutterApp> {
     _totalScore += score;
     setState(() {
       _selecedColorIndex = _selecedColorIndex + 1;
-    });
+    }); 
   }
 
   void _resetHandular() {
